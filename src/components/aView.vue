@@ -1,5 +1,5 @@
-<template lang="">
-  <div>A-VIEW</div>
+<template>
+  <div class="a">A-VIEW</div>
 </template>
 <script lang="ts">
 import { defineComponent } from 'vue'
@@ -7,4 +7,9 @@ export default defineComponent({
   name: 'aView',
 })
 </script>
-<style lang=""></style>
+<style>
+.a {
+  background-color: red;
+  width: 100%;
+}
+</style>
